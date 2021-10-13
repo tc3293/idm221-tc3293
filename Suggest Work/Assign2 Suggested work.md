@@ -2,7 +2,7 @@
 <!--Build a HTML page for Assignment 2 Suggested Work-->
 <html>
 <head>
-    <Title> Welcome to my Anime List</title>
+    <title> Welcome to my Anime List</title>
 <body>
     <h1 style="color: Orange; font-size: 200%;text-align:center"><b>Anime<b></h1>
     <p style="margin: 10px; color: #B2BEB5 ; font-size: 1.em;"> This is the note to remember the watchlist the anime as well the anime movies.
