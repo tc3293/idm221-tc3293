@@ -1,14 +1,13 @@
-<!Doctype htmp>
 <!--Build a HTML page for Assignment 2 Suggested Work-->
+<!Doctype html>
 <html>
 <head>
     <title>Anime</title>
 </head>
 <body>
     <h1 style="color: Orange; font-size: 200%;text-align:center"><b>Anime<b></h1>
-    <p style="margin: 10px; color: #B2BEB5 ; font-size: 1.em;"> This is the note to remember the watchlist the anime as well the anime movies. Here is the website direct to the Anime site to watch online:
-<a href="https://www.animesuge.io/?1.com" target="_blank">Suge Anime Website</a>
-<p>
+    <p style="margin: 10px; color: #B2BEB5 ; font-size: 1.em;"> This is the note to remember the watchlist the anime as well the anime movies. Here is the website direct to the Anime site to watch online: 
+    <a href="https://www.animesuge.io/?1.com" target="_blank">Suge Anime Website</a><p>
 </body>
 </br>
 <body>
@@ -34,4 +33,4 @@
         <li>Your Name</li>
         <li>Weathering with you</li>
     </ul>
-    </p>
+    <p>
