@@ -1,0 +1,24 @@
+header {
+font-size: .8em;
+background-color: #389695;
+text-align: center;
+min-height: 10vh;
+justify-content: center;
+display: flex;
+font-family: Times, Georgia, Serif;
+align-items: center;
+color: #1c3036;
+border-radius: 10px;
+}
+
+body {
+background-color: #394a49;
+}
+
+.link a {
+color: #389695;
+text-decoration: none;
+font-size: .5em;
+
+}
+
