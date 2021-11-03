@@ -1,5 +1,5 @@
 header {
-font-size: .8em;
+font-size: 1.0em;
 background-color: #389695;
 text-align: center;
 min-height: 10vh;
@@ -16,9 +16,30 @@ background-color: #394a49;
 }
 
 .link a {
-color: #389695;
+color: #1c3036;;
 text-decoration: none;
 font-size: .5em;
+background-color: #389695;
+min-height: 11vh;
+border-radius: 10px;
+font-family: Times, Georgia, Serif;
+justify-content: center;
+font-size: .9em;
+}
+.link {
+text-align: center;
+font-weight: bold;
+}
+
+.about {
+color: #389695;
+background-color: #1c3036;
+text-align: center;
+justify-content: center;
+border-radius: 10px;
 
 }
 
+.parag {
+color: white;
+}
