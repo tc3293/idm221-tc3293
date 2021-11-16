@@ -2,44 +2,108 @@ header {
 font-size: 1.0em;
 background-color: #389695;
 text-align: center;
-min-height: 10vh;
+min-height: 45vh;
 justify-content: center;
 display: flex;
 font-family: Times, Georgia, Serif;
 align-items: center;
 color: #1c3036;
 border-radius: 10px;
+margin: 0px;
+}
+
+.image {
+background-image: image('Image/Tc1.JPG');
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 body {
 background-color: #394a49;
 }
 
+
+/*Menu*/
 .link a {
-color: #1c3036;;
+border-radius: 55px;    
 text-decoration: none;
-font-size: .5em;
-background-color: #389695;
-min-height: 11vh;
-border-radius: 10px;
-font-family: Times, Georgia, Serif;
-justify-content: center;
-font-size: .9em;
+background-color: #DDD;
+transition:0.4s;
+padding:5px 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+a:link hover {
+text-decoration:none ;
+color: #999;
+background-color:white;
+transition:0.4s;
+}
+
 .link {
 text-align: center;
 font-weight: bold;
+box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.2);
+background-color: white;
+width: 100%;
+margin: auto;
+text-align: center;
+position:fixed; 
+z-index:999;
+}
+.link ul {
+width:100%;
+margin:auto;
+padding:15px 0px;
+}
+.link li {
+display: incline-block;
+padding:5px;
 }
 
+/*Home*/
+#index.html{
+width: 100%;
+background:url(https://imgur.com/VzmF5on) fixed 100% no-repeat;
+background-size:cover;
+padding:159.5px 0px 100px 0px;
+text-align:center;
+}
+.home {
+width: 100%;
+}
+.home h1{
+font-weight:100;
+font-size:50px;
+color:#EEE;
+padding:0px 0px 5px 0px;
+}
+.home h2 {
+    font-weight:100;
+    font-size:30px;
+    color: #DDD;
+    text-transform:uppercase;
+}
+
+/*about menu*/
 .about {
 color: #389695;
 background-color: #1c3036;
 text-align: center;
 justify-content: center;
-border-radius: 10px;
+text-decoration: none;
+width: 15%;
+height: 5%;
+display: flex;
+margin: auto;
+border-radius: 1rem;
 
 }
 
 .parag {
 color: white;
+font-size: 1.5em;
+background-color: rgb(34, 83, 24);
+border: 3px solid rgb(122, 121, 121); 
+margin: 100px; 
 }
