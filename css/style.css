@@ -1,0 +1,470 @@
+/*text font*/
+html, body {
+    margin: 0px;
+    padding:0px;
+    width:100%;
+    font-size:20px;
+    font-family:century;
+    font-weight: bold;
+}
+div, h1, h2, h3, h4, h5, ul, li, a, span {
+    margin: 0px;
+}
+.empty{
+    clear:both;
+}
+#tony-id{
+    width:100%
+}
+
+/*menu*/
+#tony-menu{
+}
+
+.menu{ /*menu hover text at top*/
+    width:100%;
+    margin:auto;
+    box-shadow: 2px 2px 12px 2px rgb(0, 0, 0, 0.2);
+    text-align:center;
+    z-index:800;
+    position:fixed;
+}
+.menu ul{
+    width:100%;
+    margin:auto;
+    padding:20px 0px;
+}
+.menu li{ /*position for hover menu*/
+display:inline-block;
+padding: 10px;
+}
+
+.menu a{
+    text-decoration:none;
+    background-color: lightgray;
+    color: black;
+    transition:0.4s;
+    padding:5px 25px;
+    border-radius: 10px;
+}
+
+.menu a:hover{
+    text-decoration:none;
+    color: white; /*hover color, the click button thing*/
+    background-color: black;
+    transition:0.4s;
+}
+
+/*Home*/ /*note: the fixed command to size/focus cover image*/
+#tony-home{
+    background:url(https://i.imgur.com/WYJSSE7.jpg) fixed 74% no-repeat;
+    width: 100%; /*text adjust*/
+    background-size:cover;
+    text-align: justify;
+    padding: 450px 0px 200px 0px; /*change cover size*/
+    max-width: 100%;
+}   
+
+.home h1 { /*welcome, i am text*/
+    font-size: 75px;
+    color: white;
+    font-weight: 100;
+    padding: 0px 0px 5px 0px;
+    width: auto;
+    text-shadow: 5px 3px black;
+}
+.home h2{
+    font-size: 40px;
+    font-weight: 100;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 4px 2px white;
+}
+
+/*------------------About me------------------------*/
+.about-text{
+    width:100%;
+    float: left;
+    text-align: center;
+}
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:10px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightgray;
+    width: auto;
+    margin:auto;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 10px;
+    max-height: 100%;
+    width: 250px;
+}
+.about-text p{
+    text-align: center;
+    padding-bottom: 55px;
+}
+.about-text p {
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 1.4;
+    margin: auto;
+}
+.video{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.video p{
+    font-size: 20px;
+    padding-bottom:5px;
+    max-width: 350px;
+    max-height: 100%;
+    text-align: center;
+    background-color: lightgray;
+    width: 350px;
+    margin:auto;
+    border-radius: 10px;
+}
+/*----------------------resume----------------------*/
+#tony-resume{
+    background:url(https://i.imgur.com/k0bVCw2.png) fixed 50% no-repeat;
+    background-size:cover;
+    padding: 320px 0px 100% 0px; /*change cover size*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.resume{
+    margin:auto;
+    text-align:center;
+    max-width:300px;
+    background-color: lightgray;
+    border-radius: 15px;
+    max-height: 100%;
+    width: 240px;
+}
+.resume h2{
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.resume a:hover{
+color: white;
+}
+.resume a{ /*download hover color*/
+    color: green;
+}
+
+/*----------------------portfolio----------------------*/
+#tony-portfolio{
+    padding: 100px 0px; /*change padding here for portfolio each square*/
+    background-color: rgb(128, 122, 122); /*background color*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio{ /*text picture*/
+    max-width:960px;
+    width:100%;
+    text-align:center;
+    margin:auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.portfolio h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom:55px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px white;
+}
+.tony-portfolio h2{
+    padding-bottom:100px;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+}
+/*Homepage website figma*/
+.tony-minileft{
+    transition: .4s;
+    width:47%;
+    margin-right: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*pattern design*/
+.tony-miniright{
+    transition: .4s;
+    width:47%;
+    margin-left: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*innerpage website figma*/
+.tony-minileft2{
+    transition: .4s;
+    width:47%;
+    margin-right: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px; /*important note: space box top*/
+}
+/*pattern xiao design*/
+.tony-miniright2{
+    transition: .4s;
+    width:47%;
+    margin-left: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px; /*important note: space box top*/
+}
+/*heavy content website figma*/
+.tony-minileft3{
+    transition: .4s;
+    width:47%;
+    margin-right: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*g4 art*/
+.tony-miniright3{
+    transition: .4s;
+    width:47%;
+    margin-left: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*kata+reiju*/
+.tony-minileft4{
+    transition: .4s;
+    width:47%;
+    margin-right: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*dragon girl art*/
+.tony-miniright4{
+    transition: .4s;
+    width:47%;
+    margin-left: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*space*/
+.tony-minileft5{
+    transition: .4s;
+    width:47%;
+    margin-right: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+/*Little Girl*/
+.tony-miniright5{
+    transition: .4s;
+    width:47%;
+    margin-left: 3%;
+    float:left;
+    box-shadow:0 0 20px 1px black;
+    margin-top: 25px;
+}
+.text-portfolio{
+    height:250px;
+    width:100%;
+}
+/*picture here start:*/
+.formone{
+    background:url(https://i.imgur.com/ihhS20j.png);
+    background-size:cover;
+}
+.formtwo{
+    background:url(https://i.imgur.com/j4fQT5M.png);
+    background-size:cover;
+}
+.form3 {
+    background:url(https://i.imgur.com/H9shCCG.png);
+    background-size:cover;
+}
+.form4{
+    background:url(https://i.imgur.com/PFCfRRH.jpeg);
+    background-size:cover;
+}
+.form5{
+    background:url(https://i.imgur.com/Kz3if2f.png);
+    background-size:cover;
+}
+.form6{
+    background:url(https://i.imgur.com/aCM19fB.jpeg);
+    background-size:cover;
+}
+.form7{
+    background:url(https://i.imgur.com/4VgXtlO.png);
+    background-size:cover;
+}
+.form8{
+    background:url(https://i.imgur.com/ZZKXiWW.jpg);
+    background-size:cover;
+}
+.form9{
+    background:url(https://i.imgur.com/6SVHr2F.jpg);
+    background-size:cover;
+}
+.form10{
+    background:url(https://i.imgur.com/ptraIuS.jpg);
+    background-size:cover;
+}
+.picture1 { /*wireframe text box*/
+    padding:15px 30px 15px 15px;
+}
+/*h3 font here*/
+.picture1 h3{
+    font-size:25px;
+    font-weight:100;
+    padding-bottom: 10px;
+    color:white;
+}
+.picture1 h4{
+    line-height:25px;
+    font-weight:100;
+    color:white;
+    font-size:18px;
+}
+.picture1 a{
+    color:white;
+}
+.picture1 a:hover{ /*hover color*/
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+}
+.text-portfolio:hover{ /*useless hover, is not click*/
+    transition:.4s;
+    box-shadow:0 0 20px 1px black;
+}
+
+/*-----------------------------contact-----------------------------*/
+#tony-contact{
+    padding: 170px 0px 50px 0px; /*change cover size*/
+    background:url(https://i.imgur.com/LWtdJa7.jpg)
+    fixed 100% no-repeat;
+    background-size:cover;
+    width:100%;
+    }
+    /*come back fix this design later*/
+    .contact{
+        width:100%;
+        margin:auto;
+        max-width: 400px;
+        text-align: center;
+    }
+    .contact h2{
+        padding-bottom: 5px;
+        font-size: 25px;
+        font-weight: 100;
+        text-transform:uppercase;
+        color: white;
+        background-color: black;
+        width: 145px;
+        border-radius: 8px;
+    }
+    .input h3{
+        font-size:17px;
+        font-weight:100;
+        text-align:left;
+        margin-top:15px;
+        margin-bottom:10px;
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        width: 65px;
+        text-align: center;
+    }
+    .input textarea{
+        margin-bottom:15px;
+    }
+    .input[type="email"], input[type="text"], textarea{
+        width:100%;
+        height:25px;
+        background-color: black;
+        padding:2.5px 8px;
+        border:none;
+        border-bottom:1px solid lightgray;
+        border-radius: 0;
+        box-shadow: none;
+        box-sizing: border-box;
+        border-radius: 0;
+        outline:none;
+        color: white;
+    }
+    textarea{
+        min-height: 150px;
+        max-height: 150px;
+        max-width: 100%;
+        max-width:100%;
+    }
+
+    input[type="submit"]{
+        width:100%;
+        font-size: 17px;
+        display:inline-block;
+        height:25px;
+        padding:0 30px;
+        text-align: center;
+        font-weight: 100;
+        line-height:20px;
+        text-transform:uppercase;
+        white-space: nowrap;
+        border-radius: 0px;
+        text-decoration: none;
+        border: 0;
+        background-color: black;
+        color:white;
+        box-sizing: border-box;
+        transition: 0.4s;
+    }
+    
+    input[type="submit"]:hover{
+        color:black;
+        background-color:white;
+        transition: 0.4s;
+        text-decoration: none;
+    }
+    /*---------------------stop here------------------------*/
+
+    /*footer*/
+#tony-footer{
+    background-image:url(https://i.imgur.com/unlxttR.png);
+    background-repeat: no-repeat;
+    padding:20px 0px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.footer a {
+    color:white ;
+    transition:0.4s;
+    padding-top: 50px;
+    text-decoration: none;
+}
+.icon a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+
+/* small note: add this if i want hover for footer
+
+.footer a:hover {
+    color:white;
+    text-decoration: none;
+    transition: 0.4s;
+}   */
